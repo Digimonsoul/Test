@@ -42,8 +42,8 @@ public class Main {
             System.out.println("Drakon");
             Species = system.nextLine();
             if(Species.equalsIgnoreCase("Human")){
-                System.out.println("Mundane yet Abnormal. unremarkable but infinite.");
-                System.out.println("A human has no advantage," +
+                System.out.println("Mundane yet Abnormal. Unremarkable but infinite.");
+                System.out.println("A human has no advantage, " +
                         "but they also have no drawback.");
             }
             else if(Species.equalsIgnoreCase("Elf")) {
