@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner system = new Scanner(System.in);
 
-        System.out.println("Scattered across the Aether");
+        System.out.println("Fallen from the Aether");
         Pause(1.75);
         System.out.println("Arisen from the void");
         Pause(1.5);
@@ -61,8 +61,9 @@ public class Main {
                 System.out.println("Power in its most primal state is not a tool, " +
                         "but instead a force.");
                 System.out.println("A Drakon has the pride and strength " +
-                        "of their ancestors reflected in their majestic form. Yet when" +
-                        " the body is highly praised, the mind can often falter.");
+                        "of their ancestors reflected in their majestic form.");
+                System.out.println("Yet when the body is highly praised, " +
+                        "the mind can often falter.");
             }
             else{
                 System.out.println("This form is undefined. Select a form that is known.");
