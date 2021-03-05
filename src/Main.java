@@ -68,6 +68,10 @@ public class Main {
         if (Name.equalsIgnoreCase("Rick Astley")) {
             stop();
             start("C:\\Users\\ew7100\\Documents\\GitHub\\Test\\RickRoll.mp3");
+            while(true){
+                Pause(0.3);
+                System.out.println("Bruh");
+            }
         }
         System.out.print("Of course,");
         Pause(0.5);
@@ -182,7 +186,7 @@ public class Main {
             answer = system.nextLine();
         }
         Character Player = new Character(Name,Species,Gender,Watcher);
-        playThread.stop();
+        stop();
 
 
 
