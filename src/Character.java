@@ -18,5 +18,4 @@ public class Character {
         this.Gender=Gender;
         this.Watcher=Watcher;
     }
-
 }

@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
+
     static FileInputStream fileInputStream;
     static File myFile=new File("C:\\Users\\ew7100\\Documents\\GitHub\\Test\\EveningFall(Harp).mp3");
     static BufferedInputStream bufferedInputStream;
@@ -156,7 +157,7 @@ public class Main {
             System.out.println("Aster");
             Watcher = system.nextLine();
             if(Watcher.equalsIgnoreCase("Yaliwen")){
-                System.out.println("She who witness evolution. Under their eyes, " +
+                System.out.println("She who witness evolution. Under her eyes, " +
                         "All proceeds as it should.");
             }
             else if(Watcher.equalsIgnoreCase("Grottus")){
@@ -166,16 +167,16 @@ public class Main {
             }
             else if(Watcher.equalsIgnoreCase("Zephine")){
                 System.out.println("The world is meant to be explored. With her as their" +
-                        " witness, the winds adventure the world unhindered.");
+                        " witness, her followers adventure the world unhindered.");
             }
             else if(Watcher.equalsIgnoreCase("Kaiser")){
                 System.out.println("As above is below. The darkness is neither an ally" +
-                        " nor an enemy, For he has no need to indulge mortal desires");
+                        " nor an enemy, For it has no need to indulge mortal desires");
             }
             else if(Watcher.equalsIgnoreCase("Aster")){
                 System.out.println("The most observant of watchers would indeed be he " +
-                        "who witnesses everything. His eyes are the stars, for he who " +
-                        "sees all, also knows all");
+                        "who witnesses everything. For his eyes are the stars, and the winds " +
+                        "are his ears.");
             }
             else{
                 System.out.println("This Authority is unknown. Select a known authority");
@@ -188,7 +189,10 @@ public class Main {
         Character Player = new Character(Name,Species,Gender,Watcher);
         stop();
 
-
+        System.out.println("The Astral Sea sways.");
+        Pause(1);
+        System.out.println("Its tides recognizing a new Aspect's birth.");
+        Pause(1.8);
 
 
 
